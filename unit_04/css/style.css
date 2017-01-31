@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Montserrat');
+
+
+
+body {
+	background: url("http://i.imgur.com/h5RWTub.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+p {
+	font-family: "Lora", serif;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+	line-height: 1.5em;
+	background: rgba(255,255,255,0.8);
+}
+
+h3 {
+	text-align:center;
+	font-size: 40px;
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+}
+
+h1 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+}
+
+p.footer {
+	text-align: center;
+	font-style: italic;
+}
+
