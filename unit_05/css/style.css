@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Montserrat');
+
+header {
+	text-align: center;
+	font-weight: bold;
+	margin: 50px auto auto;
+	border: 1px black solid;
+	padding: 5px;
+	background-color: #FFED74;
+}
+
+nav {
+	display: inline;
+	float: right;
+	margin: 23px 20px auto auto;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	border: 1px black solid;
+	padding: 7px;
+	background-color: #E8C66A;
+}
+
+body {
+	/* background: url("http://i.imgur.com/h5RWTub.jpg") no-repeat center center fixed;
+	background-size: cover; */
+	background-color: lightgrey;
+}
+
+h1 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 100px;
+	text-align: center;
+	line-height: 0.5em;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+	display: inline;
+}
+
+h2 {
+	text-align:center;
+	font-size: 40px;
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+}
+
+article {
+	border: 1px black solid;
+	background-color: #E89C6C;
+}
+
+p {
+	font-family: "Lora", serif;
+	font-size: 18px;
+	width: 50em;
+	margin: 1em auto;
+	line-height: 1.5em;
+}
+
+a {
+	background-color: white;
+	width: 25%;
+	padding: .3em .3em;
+	font-style: bold;
+	color: cornflowerblue;
+}
+
+footer {
+	font-family: "Lora", serif;
+	font-size: 18px;
+	text-align: center;
+	margin: auto;
+	width: 50em;
+	line-height: 1.5em;
+	border: 1px black solid;
+	padding: 5px;
+	background-color: #FF957E;
+}
+
+#wrapper {
+	background: rgba(255,255,255,0.5);
+	width: 960px;
+	margin: 1em auto;
+	border: 5px grey solid;
+}
+
+#logo {
+	float:left;
+	margin: 0 0 0 20px;
+}
+
+#images {
+	text-align: center;
+	padding: auto;
+	border: 1px black solid;
+}
+
+#Portfolio {
+	border: 1px black solid;
+	background-color: #FFE2B8;
+}
+
+#splash {
+	margin-top: 5em;
+	border: 1px black solid;
+	background-color: #FFE2B8;
+}
