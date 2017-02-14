@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Montserrat');
+
+header {
+	float: left;
+	width: 50%;
+}
+
+h1 {
+	float: right;
+	font-size: 100px;
+}
+
+nav a {
+	text-decoration: none;
+	color: cornflowerblue;
+	display: inline-block;
+	width: 100%;
+	font-size: 28px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #e8e8e8;
+	height: 1.4em;
+	padding-top: 10px;
+}
+
+h2 {
+	font-size: 35px;
+	font-weight: bold;
+	margin: 10px auto;
+	padding-bottom: 10px;
+	border-bottom: 4px solid grey;
+	text-align: center;
+	width: 20%;
+}
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+nav {
+	width: 50%;
+	float: right;
+}
+
+p {
+	font-family: "Lora", serif;
+}
+
+ul {
+	float: right;
+	width: 100%;
+}
+
+li {
+	display: inline-block;
+	width: 35%;
+	margin: -2px;
+	border: 2px #cecece solid;
+	text-align: center;
+	float: right;
+}
+
+p {
+	margin: 10px;
+	line-height: 1.5em;
+}
+
+footer {
+	text-align: center;
+}
+
+/*.wrapper {
+	width: 1200px;
+	margin: 10px;
+	border: 3px black solid;
+	padding: 5px;
+}*/
+
+#top_bar {
+	padding: 10px;
+	margin: 25px 10px;
+	border: 2px #cecece solid;
+}
+
+.splash {
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	margin: 25px 10px;
+	border: 2px #cecece solid;
+}
+
+.bio {
+	margin: 25px 10px;
+	border: 2px #cecece solid;
+}
+
+.bio_text {
+	float: left;
+	width: 60%;
+	font-size: 22px;
+}
+
+.bio_image {
+	float: right;
+	width: 40%;
+	text-align: center;
+}
+
+.work {
+	clear: both;
+	border: 2px #cecece solid;
+	margin: 25px 10px;
+}
+
+.logo {
+	float: left;
+	margin-left: 10px;
+}
+
+#wrapper {
+	clear: both;
+}
+
+.images {
+	text-align: center;
+}
+
+.highlights {
+	margin: 25px 10px;
+	border: 2px #cecece solid;
+	font-size: 22px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
