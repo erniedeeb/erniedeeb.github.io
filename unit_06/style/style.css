@@ -1,25 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Montserrat');
-
-header {
-	float: left;
-	width: 50%;
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-size:16px;
 }
-
+section {
+	padding:5em 0;
+}
+header div {
+	float: left;
+}
 h1 {
-	float: right;
-	font-size: 100px;
+	float: left;
+	font-size: 4em;
 }
 
 nav a {
 	text-decoration: none;
 	color: cornflowerblue;
 	display: inline-block;
-	width: 100%;
-	font-size: 28px;
+	font-size: 1.25em;
 	font-family: 'Montserrat', sans-serif;
 	background-color: #e8e8e8;
-	height: 1.4em;
-	padding-top: 10px;
+	padding: 1em;
 }
 
 h2 {
@@ -37,31 +39,15 @@ h1, h2 {
 }
 
 nav {
-	width: 50%;
-	float: right;
+	position: absolute;
+	right: 1em;
+	top: 50%;
+	transform: translateY(-50%);
 }
-
 p {
 	font-family: "Lora", serif;
-}
-
-ul {
-	float: right;
-	width: 100%;
-}
-
-li {
-	display: inline-block;
-	width: 35%;
-	margin: -2px;
-	border: 2px #cecece solid;
-	text-align: center;
-	float: right;
-}
-
-p {
-	margin: 10px;
-	line-height: 1.5em;
+	margin: .5em;
+	line-height: 1.5;
 }
 
 footer {
@@ -77,35 +63,37 @@ footer {
 
 #top_bar {
 	padding: 10px;
-	margin: 25px 10px;
+	margin: 1.5em 0;
 	border: 2px #cecece solid;
+	position: relative;
 }
 
-.splash {
-	font-size: 30px;
+#splash {
+	font-size: 2em;
 	letter-spacing: 0.1em;
 	font-weight: bold;
-	margin: 25px 10px;
+	margin: 1.5em 0 0 5em;
+	width: 21em;
+	/* border: 2px #cecece solid; */
+}
+
+#bio {
+	/* margin: 25px 10px; */
 	border: 2px #cecece solid;
+	padding: 0;
+	position:relative;
 }
-
-.bio {
-	margin: 25px 10px;
-	border: 2px #cecece solid;
-}
-
-.bio_text {
-	float: left;
-	width: 60%;
-	font-size: 22px;
-}
-
-.bio_image {
+#bio > img {
+	width: 50%;
 	float: right;
-	width: 40%;
-	text-align: center;
 }
-
+.bio_text {
+	position:absolute;
+	top: 50%;
+	width:50%;
+	padding: 0 10em;
+	transform: translateY(-50%);
+}
 .work {
 	clear: both;
 	border: 2px #cecece solid;
@@ -114,7 +102,7 @@ footer {
 
 .logo {
 	float: left;
-	margin-left: 10px;
+	width: 5em;
 }
 
 #wrapper {
@@ -128,7 +116,9 @@ footer {
 .highlights {
 	margin: 25px 10px;
 	border: 2px #cecece solid;
-	font-size: 22px;
+	/* font-size: 22px; */
+	width: 600px;
+	margin: auto;
 }
 
 .clearfix:after {
