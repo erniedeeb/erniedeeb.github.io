@@ -32,7 +32,7 @@ h2 {
 	font-weight: bold;
 	margin: 1em auto;
 	text-align: center;
-	width: 30%;
+	width: 60%;
 	/*padding-bottom: 10px;*/
 }
 
@@ -138,10 +138,6 @@ hr {
 	margin: auto;
 }
 
-.highlights > h2 {
-	width: 60%;
-} 
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -220,6 +216,10 @@ hr {
 		margin: auto;
 		position: inherit;
 		transform: translateX(1em);
+	}
+
+	nav a {
+		width: 5.1em;
 	}
 
 	#bio > img {
