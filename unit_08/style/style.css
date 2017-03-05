@@ -32,7 +32,7 @@ h2 {
 	font-weight: bold;
 	margin: 1em auto;
 	text-align: center;
-	width: 60%;
+	width: 80%;
 	/*padding-bottom: 10px;*/
 }
 
@@ -131,7 +131,7 @@ hr {
 	text-align: center;
 }
 
-.highlights {
+#highlights {
 	margin: 1.6em .6em;
 	/* font-size: 22px; */
 	width: 70%;
@@ -219,7 +219,7 @@ hr {
 	}
 
 	nav a {
-		width: 4em;
+		width: 5.1em;
 	}
 
 	#bio > img {
