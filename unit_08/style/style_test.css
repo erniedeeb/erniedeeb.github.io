@@ -118,9 +118,9 @@ hr {
 	padding: 0 0 0 10%;
 	float: left;
 }
-.work {
+#work {
 	clear: both;
-	margin: 1.6em .6em;
+	margin-bottom: 4em;
 }
 
 .logo {
@@ -133,8 +133,37 @@ hr {
 	clear: both;
 }
 
-.images {
+.social {
 	text-align: center;
+}
+
+.social a {
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	font-size: 3em;
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgba(232, 232, 232, 0.25);
+	margin: 0 .5em;
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+	text-align: center;
+}
+
+#linkedin {
+	background-color: #0077b5;
+	padding: .4em;
+}
+
+#twitter {
+	background-color: #00aced;
+	padding: .4em .4em .4em .35em;
+}
+
+#insta {
+	background-color: #8a3ab9;
+	padding: .4em;
 }
 
 #highlights {
@@ -161,12 +190,11 @@ hr {
 	width: 100%;
 	display: block;
 	float: left;
+	margin-top: 1em;
 }
 
-a:
-
 .experience_nav > p {
-	margin: none;
+	margin: auto;
 }
 
 .experience_nav > p > a {
@@ -185,7 +213,8 @@ a:
 
 .experience_text {
 	clear: both;
-	padding: .2em 1em 1em;
+	padding: .2em 1em;
+	margin-bottom: 1em;
 	display: block;
 	background-color: rgba(232, 232, 232, 0.25);
 }
