@@ -32,14 +32,14 @@ li {
 header {
 	text-align: center;
 	padding-top: 4em;
-	background-image: url("../images/nyc.png");
+	background-image: url("../nyc.png");
 	background-size: cover;
 	height: 10em;
 	background-position: bottom;
 }
 
 .header-alt {
-	background-image: url("../images/la.png");
+	background-image: url("../la.png");
 }
 
 a {
