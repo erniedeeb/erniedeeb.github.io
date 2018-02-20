@@ -1,0 +1,40 @@
+Layout inspirations:
+https://html5up.net/
+http://www.awwwards.com/
+
+Refreshers:
+http://www.w3schools.com/html/html5_semantic_elements.asp
+http://www.w3schools.com/tags/default.asp
+
+Color Theory:
+https://color.adobe.com/create/color-wheel/
+http://www.lolcolors.com/
+
+Typography:
+https://fonts.google.com/
+
+Design Theory:
+http://learndesignprinciples.com/
+
+Breakpoint examples:
+http://mediaqueri.es/
+
+Stock Photography/Video:
+https://unsplash.com/
+https://www.pexels.com/
+https://videos.pexels.com/
+
+Font Icons (useful because they are 1 http request instead of multiple)
+http://fontawesome.io/
+
+Placeholders:
+http://placehold.it/
+
+Shows different screensizes:
+https://material.io/resizer/
+
+Resources for everything (PM, Engineering, Design, etc.):
+http://webfieldmanual.com/
+
+Free Textures, Icons, Fonts:
+https://pixelbuddha.net/
